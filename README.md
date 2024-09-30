@@ -45,3 +45,22 @@ print(type(mytuple))
 #Utilizando el método tuple para hacer una 
 thistuple = tuple(("ONE", "TWO", "THREE"))
 print(thistuple)
+
+
+TUPLAS DE AUTOS
+
+mytuple = ("Mercedes-Benz",)
+print ("Mercedes-Benz")
+
+thistuple = ("BMW")
+print ("BMW")
+
+mytuple = ("Honda", "Ford")
+print (len(mytuple))
+
+thistuple = ("Toyota", "Acura", "Alfa Romeo")
+print (type(thistuple))
+
+#No es tuple 
+mytuple = ("R")
+print (type(mytuple))
